@@ -1,0 +1,30 @@
+.button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  transition: all 0.3s ease-in;
+  font-family: sans-serif;
+  position: relative;
+  color: #ef7c00;
+  border: 1px solid #ef7c00;
+  font-size: 15px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+  border: 1px solid #ef7c00;
+  box-shadow: 1px 1px 8px 1px gray;
+  cursor: pointer;
+  background-color: #ef7c00;
+}
+
+@media (max-width) {
+  .button {
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+  }
+}
